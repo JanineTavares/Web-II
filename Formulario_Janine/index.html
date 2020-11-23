@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Janine Tavares">
+    <meta name="description" content="Página web com formulário básico">
+    <meta name="keywords" content="HTML CSS Form">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulario</title>
+  </head>
+  <body>
+    <main class="principal">
+      <h1> Preencha com seus dados: </h1>
+      <form action="#">
+      <fieldset class="holderForm">
+        <legend> Cadastro Login </legend>
+        <label class="titulos" for="nome">
+          Nome:<span class="obrigatorio">*</span>
+          <input class="campo" type="text" name="nome" required size="25" placeholder="Nome Completo">
+        </label>
+        <label class="titulos" for="apelido">
+          Apelido:
+          <input class="campo" type="text" name="apelido">
+        </label>
+        <label class="titulos" for="email">
+          E-mail:<span class="obrigatorio">*</span>
+          <input class="campo" type="email" name="email" required size="25" placeholder="nome@email.com">
+        </label>
+        <label class="titulos" for="senha">
+          Senha:<span class="obrigatorio">*</span>
+          <input  class="campo" type="password" name="senha" required size="10">
+        </label>
+        <label  class="titulos"for="senhaRepetir">
+          Repetir Senha:<span class="obrigatorio">*</span>
+          <input class="campo" type="password" name="senhaRepetir" required size="10">
+        </label>
+        <div class="botoes">
+        <input type="submit" id="enviar" name="enviar" value="Enviar">
+        <input type="reset" id="limpar" name="limpar" value="Limpar">
+        </div>
+      </fieldset>
+    </form>
+    </main>
+
+  </body>
+</html>

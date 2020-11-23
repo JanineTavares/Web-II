@@ -1,0 +1,14 @@
+{
+    "name": "bruno/projetofinal",
+    "description": "Projeto Final",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bruno Lerner",
+            "email": "brunolerner1000@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

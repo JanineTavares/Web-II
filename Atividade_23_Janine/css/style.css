@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+body{
+    margin:0;
+	padding:0;
+    background-image: url(../img/nuvem.jpg);
+    background-attachment:fixed;
+    background-size: 100%;
+}
+
+.corpo-controller{
+    margin:0;
+	padding:0;
+    background-image: url(../img/branco.jpg);
+    background-attachment:fixed;
+    background-size: 100%;
+}
+
+.cadastrocontainer-fluid{
+    width:80%; 
+	margin:auto; 
+	background-color:rgba(0,0,0,0.8); 
+	padding:10px; 
+	border-radius:20px;
+}
+
+label, input{
+    color: white;
+}

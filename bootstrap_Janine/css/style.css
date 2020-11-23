@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body {
+  background-color: rgba(237, 37, 37, 0.62);
+}
+.carousel-inner {
+  align-items: center;
+  border: 9px solid rgba(68, 120, 153, 0.56);
+  width: 80%;
+  margin: auto;
+  height: 30%;
+}
+
+.carousel-item img {
+  width: 90%;
+  height: 500px;
+}
+
+.container {
+  min-height: 100% !important;
+
+}

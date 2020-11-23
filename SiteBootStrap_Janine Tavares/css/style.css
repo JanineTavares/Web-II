@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+.jumbotron {
+  padding: 4rem 4rem;
+  margin-bottom: 0rem !important;
+  background-color: #e9ecef;
+  border-radius: 0.0rem !important;
+}
